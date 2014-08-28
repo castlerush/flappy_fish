@@ -8,8 +8,17 @@
   <sprites name="sprites">
     <sprite>sprites\spr_fish</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\globals</object>
+    <object>objects\obj_fish</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Playroom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
