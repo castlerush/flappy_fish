@@ -52,7 +52,9 @@
 
 position = irandom(300) + 150;
 spread = 150;
-instance_create(room_width,position - spread/2,obj_rockdown);
+if global.dead !=1 {
+    instance_create(room_width,position - spread/2,obj_rockdown);
+};
 //instance_create(room_width,position - spread/2,obj_rockdown);
 //instance_create(room_width,position - spread/2,obj_rockdown);
 </string>

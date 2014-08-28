@@ -54,7 +54,9 @@ global.dead = 0;
     gravity = 2;
     image_speed = .3;
 };
-
+if y &lt; 0 {
+    vspeed = 20
+};
 </string>
           </argument>
         </arguments>
