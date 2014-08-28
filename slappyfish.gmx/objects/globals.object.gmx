@@ -49,10 +49,9 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 60;
-
 position = irandom(300) + 150;
 spread = 150;
-if global.dead !=1 {
+if global.dead !=1 &amp;&amp; global.gamestart = true {
     instance_create(room_width,position - spread/2,obj_rockdown);
 };
 //instance_create(room_width,position - spread/2,obj_rockdown);
@@ -83,6 +82,7 @@ if global.dead !=1 {
 if global.dead = 1 {   
     draw_highscore(100, 100, room_width - 100, room_height - 100); 
 };
+
 </string>
           </argument>
         </arguments>

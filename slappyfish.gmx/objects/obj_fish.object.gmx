@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0; //rage it sets the speed of the image indexs to 0.
 global.dead = 0;
+global.gamestart = false;
 </string>
           </argument>
         </arguments>
@@ -53,6 +54,7 @@ global.dead = 0;
     vspeed = -20;
     gravity = 2;
     image_speed = .3;
+    global.gamestart = true;
 };
 if y &lt; 0 {
     vspeed = 20
@@ -151,8 +153,11 @@ gravity = 0;
           <argument>
             <kind>1</kind>
             <string>draw_self()
-draw_set_font(font2);
-draw_text(312,116,""+string(score));
+if global.gamestart = true {
+    draw_set_font(font2);
+    draw_set_color(c_black);
+    draw_text(312,116,""+string(score));
+};
 
 </string>
           </argument>

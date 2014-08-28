@@ -18,6 +18,7 @@
   <fonts name="fonts">
     <font>fonts\font0</font>
     <font>fonts\font2</font>
+    <font>fonts\font3</font>
   </fonts>
   <objects name="objects">
     <object>objects\globals</object>
@@ -25,6 +26,7 @@
     <object>objects\obj_rockup</object>
     <object>objects\obj_rockdown</object>
     <object>objects\obj_floor</object>
+    <object>objects\globaltext</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Playroom</room>

@@ -53,6 +53,7 @@
     <instance objName="obj_fish" x="128" y="256" name="inst_E782911A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globals" x="416" y="128" name="inst_D5B0A05F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="167" y="473" name="inst_7AEEA623" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="globaltext" x="123" y="104" name="inst_A1F61F0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
