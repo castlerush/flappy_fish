@@ -7,14 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_fish</sprite>
+    <sprite>sprites\spr_rockdown</sprite>
+    <sprite>sprites\spr_rockup</sprite>
+    <sprite>sprites\spr_floor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+    <font>fonts\font2</font>
+  </fonts>
   <objects name="objects">
     <object>objects\globals</object>
     <object>objects\obj_fish</object>
+    <object>objects\obj_rockup</object>
+    <object>objects\obj_rockdown</object>
+    <object>objects\obj_floor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Playroom</room>
